@@ -1,8 +1,10 @@
 # React Native(Expo) + TensorFlow.jsで物体検出アプリ
 Coco-SSDを利用して、画像から物体を検出するスマホアプリ
 
-## バージョン
+## デモ画面
+![デモ画面](demo_img.PNG)
 
+## バージョン
 - "@tensorflow-models/coco-ssd": "^2.2.3",
 - "@tensorflow/tfjs": "^4.20.0",
 - "@tensorflow/tfjs-backend-cpu": "^4.20.0",
@@ -11,7 +13,9 @@ Coco-SSDを利用して、画像から物体を検出するスマホアプリ
 - "expo": "~51.0.24",
 - "expo-status-bar": "~1.12.1",
 - "react": "18.2.0",
-- "react-native": "0.74.3"
+- "react-native": "0.74.3",
+- "react-native-canvas": "^0.1.40",
+- "react-native-webview": "13.8.6"
 
 ## 注意点(2024年8月時点)
 
